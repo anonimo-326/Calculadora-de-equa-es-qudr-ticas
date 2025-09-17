@@ -1,0 +1,35 @@
+.corpo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h3{
+    font-family: Arial;
+}
+p{
+    font-family: Arial;
+}
+input{
+    width: 150px;
+    height: 50px;
+    border-radius: 10%;
+    font-family: Arial;
+    font-size: 30px;
+}
+.botao{
+    width: 150px;
+    height: 50px;
+    background-color: gold;
+    color: darkgoldenrod;
+    border-radius: 10%;
+    font-family: Arial;
+    font-size: 30px;
+    display: block;
+    margin-top: 10px;
+    transition: all ease-in-out 0.45s;
+}
+.botao:hover{
+    background-color: darkgoldenrod;
+    color: gold;
+}
