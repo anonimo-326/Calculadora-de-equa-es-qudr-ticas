@@ -1,1 +1,0 @@
-# Calculadora-de-equa-es-qudr-ticas
