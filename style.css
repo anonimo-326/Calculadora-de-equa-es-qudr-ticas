@@ -94,17 +94,12 @@ label{
 img{
     border-radius: 10px;
 }
-.vcontainer{
-    width: 300px;
-    height: 225px;
-    border-radius: 10px;
-    overflow: hidden;
-}
 video{
     width: 300px;
     height: 225px;
     object-fit: cover;
 }
+
 
 
 
