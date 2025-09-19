@@ -99,7 +99,9 @@ video{
     height: 225px;
     border-radius: 10px;
     overflow: hidden;
+    display: block;
 }
+
 
 
 
