@@ -10,12 +10,16 @@ body{
     text-align: center;
     margin: 20px;
     max-width: 900px;
+    width: 100%;
+    box-sizing: border-box;
 }
 h3{
     font-family: Arial;
 }
 p{
     font-family: Arial;
+}
+.label{
     height: 20px;
 }
 input{
