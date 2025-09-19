@@ -12,11 +12,14 @@ function calcular(){
         if (x1 > x2){
             document.getElementById('label').innerHTML = `x = {${x2}, ${x1}}`;
         }
-        else{
+        if (x1 == x2){
             document.getElementById('label').innerHTML = `x = ${x1||x2}`
         }
     }
     else{
         document.getElementById('label').innerHTML = 'A equação não tem resolução.';
     }
+}
+function outra_pagina(caminho){
+    window.location.href=caminho;
 }
