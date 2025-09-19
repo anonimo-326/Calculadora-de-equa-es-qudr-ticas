@@ -4,6 +4,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    margin-top: 380px;
 }
 h3{
     font-family: Arial;
@@ -15,16 +16,30 @@ p{
 input{
     width: 150px;
     height: 50px;
-    border-radius: 10%;
+    border-radius: 10px;
     font-family: Arial;
     font-size: 30px;
+}
+.titulot{
+    color: lightblue;
+    font-family: Arial;
+    font-size: 70px;
+}
+.titulot1{
+    color: lightblue;
+    font-family: Arial;
+    font-size: 42px;
+}
+.subtitulot{
+    font-family: Arial;
+    font-size: 35px;
 }
 .botao{
     width: 150px;
     height: 50px;
-    background-color: gold;
-    color: darkgoldenrod;
-    border-radius: 10%;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
     font-family: Arial;
     font-size: 30px;
     display: block;
@@ -32,6 +47,43 @@ input{
     transition: all ease-in-out 0.45s;
 }
 .botao:hover{
-    background-color: darkgoldenrod;
-    color: gold;
+    background-color: darkblue;
+}
+.botao1{
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-family: Arial;
+    font-size: 30px;
+    transition: ease-in-out 0.45s;
+}
+.botao1:hover{
+    background-color: darkblue;
+}
+.botao2{
+    width: 250px;
+    height: 141px;
+    background-color: white;
+    border-radius: 10px;
+    font-family: Arial;
+    margin: 10px auto;
+    text-align: center;
+    transition: all ease-in-out 0.45s;
+}
+.botao2:hover{
+    background-color: blue;
+}
+label{
+    font-family: Arial;
+    margin: 10px auto;
+    text-align: center;
+}
+img{
+    border-radius: 10px;
+}
+video{
+    width: 300px;
+    height: 225px;
 }
