@@ -18,6 +18,7 @@ h3{
 }
 p{
     font-family: Arial;
+    margin: 10px 0;
 }
 .label{
     height: 20px;
@@ -33,6 +34,7 @@ input{
     color: lightblue;
     font-family: Arial;
     font-size: 70px;
+    max-height: 100%;
 }
 .titulot1{
     color: lightblue;
