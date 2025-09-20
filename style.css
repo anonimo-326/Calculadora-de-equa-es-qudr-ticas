@@ -4,7 +4,7 @@ body{
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    margin: 10;
+    margin: 10px;
 }
 .corpo{
     text-align: center;
@@ -106,3 +106,4 @@ video{
     height: 225px;
     display: block;
 }
+
